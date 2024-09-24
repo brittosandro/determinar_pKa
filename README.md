@@ -9,5 +9,10 @@ soluções propostas.
 
 ## Etapa 1 
  - Gerar(produzir) as geometrias dos ácidos no formato *.xyz.\
+   
   **Solução** \
-   - Utilizar o CAS de cada ácido contido no artigo (x) para produzir as geometrias. \\
+   - Utilizar o CAS de cada ácido contido no artigo (x) para produzir as geometrias. \
+   - Como fazer?
+     - Criar um script python com a biblioteca pubchem do Python e buscar as geometrias contidas no banco de dados.
+   - Problemas encontrado:
+     - A biblioteca pubchem não apresenta todos os CAS dos ácidos contidos no arquido de ácidos do artigo (X). 
