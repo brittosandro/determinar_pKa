@@ -5,6 +5,6 @@ determinação de pKa's em um conjunto de ácidos em solvetes que não são aquo
 os recursos de química computacional.
 
 ## Etapa 1 
- - Gerar(produzir) as geometrias dos ácidos no formato *.xyz.
+ - Gerar(produzir) as geometrias dos ácidos no formato *.xyz.\
   **Solução**
   Utilizar o CAS de cada ácido contido no artigo (x) para produzir as geometrias.
