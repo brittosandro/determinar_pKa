@@ -12,10 +12,13 @@ soluções propostas.
    
   **Solução** 
    - Utilizar o CAS de cada ácido contido no artigo (x) para produzir as geometrias.
-   - [ ] Criar um arquivo .txt com os dados do artigo (x) cujo os atributos são: nome da molécula (Name), tipo do ácido(Type), simbolo(CAS), fórmula molecular(Formula) e valor de pKa (pKa).
+      - [ ] Criar um arquivo .txt com os dados do artigo (x) cujo os atributos são: nome da molécula (Name), tipo do ácido(Type), simbolo(CAS), fórmula molecular(Formula) e valor de pKa (pKa).
+            
    - Como fazer?
      - Criar um script python com a biblioteca pubchem do Python e buscar as geometrias contidas no banco de dados.
+       
    - Problema encontrado:
      - A biblioteca pubchem não apresenta todos os CAS dos ácidos contidos no arquido de ácidos do artigo (X).
+       
    - Foi necessário recorrer a biblioteca **scifinder** afim de obter as geometrias não encontradas no script pelo pubchem.
       - 
