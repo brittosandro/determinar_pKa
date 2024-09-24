@@ -20,5 +20,4 @@ soluções propostas.
    - Problema encontrado:
      - A biblioteca pubchem não apresenta todos os CAS dos ácidos contidos no arquido de ácidos do artigo (X).
        
-   - Foi necessário recorrer a biblioteca scifinder afim de obter as geometrias não encontradas no script pelo pubchem.
-      - 
+   - Foi necessário recorrer a biblioteca **scifinder** afim de obter as geometrias não encontradas no script pelo pubchem.
