@@ -1,10 +1,13 @@
 # determina_pKa
 
 Esse repositório considera as etapas que são necessárias para realizar um projeto de 
-determinação de pKa's em um conjunto de ácidos em solvetes que não são aquosos utilizandos
+determinação de pKa's em um conjunto de ácidos em solvetes que não são aquosos, utilizando
 os recursos de química computacional.
+O repositório será considerado como uma agenda das etapas. Tanto para que se possa lembrar 
+das etapas ao longo do processo como para documentar as dificuldades encontradas e as 
+soluções propostas.
 
 ## Etapa 1 
  - Gerar(produzir) as geometrias dos ácidos no formato *.xyz.\
   **Solução** \
-  Utilizar o CAS de cada ácido contido no artigo (x) para produzir as geometrias.
+   - Utilizar o CAS de cada ácido contido no artigo (x) para produzir as geometrias. \\
