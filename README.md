@@ -6,5 +6,5 @@ os recursos de química computacional.
 
 ## Etapa 1 
  - Gerar(produzir) as geometrias dos ácidos no formato .xyz.
- ### Solução
-    _ Utilizar o CAS de cada ácido contido no artigo (x) para produzir as geometrias.
+  ### Solução
+   Utilizar o CAS de cada ácido contido no artigo (x) para produzir as geometrias.
