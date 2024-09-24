@@ -18,12 +18,14 @@ soluções propostas.
             - O script é o gera_geometrias.py.
        
    - Problema encontrado:
-     - A biblioteca pubchem não apresenta todos os CAS dos ácidos contidos no arquido de ácidos do artigo (X). Dentre as 231 estruturas presentes, 102 não foram encontradas pelo pubchem.
+     - A biblioteca pubchem não apresenta todos os CAS dos ácidos contidos no arquivo de ácidos do artigo (X). Dentre as 231 estruturas presentes, 102 não foram encontradas pelo pubchem.
        
    - Foi necessário recorrer a biblioteca **scifinder** afim de obter as geometrias não encontradas no script pelo pubchem.
+     
        - Essa tarefa é terrível, pois é uma tarefa manual (só sei fazer essa assim :( ). Acrescido o fato de que as estruturas mostradas no scifinder escondem os hidrogênios e portanto
          será necessário realizar outras tarefas adicionais: acrescentar hidrogênios por meio da abertura do arquivo no avogadro, esta geometria não será otimizada então será necessário
          otimizar a geometria com o xtb. Assim eu terei o conjunto de todas as etapas possíveis. As subtarefas são:
+         
          - [ ] Buscar as geometrias dos ácidos no scifinder.
          - [ ] Acrescentar os hidrogênios faltantes.
          - [ ] Otimizar as geometrias com xtb.
