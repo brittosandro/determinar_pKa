@@ -26,7 +26,13 @@ soluções propostas.
          será necessário realizar outras tarefas adicionais: acrescentar hidrogênios por meio da abertura do arquivo no avogadro, esta geometria não será otimizada então será necessário
          otimizar a geometria com o xtb. Assim eu terei o conjunto de todas as etapas possíveis. As subtarefas são:
          
-         - [ ] Buscar as geometrias dos ácidos no scifinder.
-         - [ ] Acrescentar os hidrogênios faltantes.
-         - [ ] Otimizar as geometrias com xtb.
+         - [x] Buscar as geometrias dos ácidos no scifinder.
+               É necessário ter acesso a biblioteca privada do scifinder. Os CAS, ou moléculas encontradas no scifinder foram adicionadas em arquivos
+               de acordo com o tipo de ácido especificado.
+                              
+         - [x] Acrescentar os hidrogênios faltantes.
+               Os hidrogênios foram adicionados utilizando o avogadro.
+                
+         - [x] Otimizar as geometrias com xtb.
+               Essa etapa foi realizada conjuntamente com os outros cálculos.
          
