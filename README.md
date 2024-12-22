@@ -47,6 +47,8 @@ o script faz_tudo_modif.sh. É esse script que executa os cálculos de interesse
   2) Realizar os cálculos do ORCA.
   3) Realizar os cálculos xtb com o tipo de solvente de interesse.
   4) Fazer a proponação e desprotonação das estruturas.
+- Uma vez que os cálculos forem concluidos, serão criados vários diretórios com o CAS das várias moléculas e dentro de cada um destes diretórios teremos dois novos diretórios: ACIDcalc e BASEcalc. Nestes estão
+contidos os output dos cálculos, com informações necessárias para o andamento do projeto.
   
                Essa etapa foi realizada conjuntamente com os outros cálculos.
          
