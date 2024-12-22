@@ -8,7 +8,7 @@ delas ao longo do processo como para documentar as dificuldades encontradas e as
 soluções propostas.
 
 ## Etapa 1 
- - Gerar(produzir) as geometrias dos ácidos no formato *.xyz.
+ - Gerar (produzir) as geometrias dos ácidos no formato *.xyz.
    
   **Solução** 
    - Utilizar o CAS de cada ácido contido no artigo 'Strengths of Acids in Acetonitrile' para produzir as geometrias.
@@ -34,5 +34,11 @@ soluções propostas.
                Os hidrogênios foram adicionados utilizando o avogadro.
                 
          - [x] Otimizar as geometrias com xtb.
+
+  Após essa etapa ser concluida será necessário executar todos os arquivos .xyz para que sejam executados os cálculos ab-initio com DFT bem como os cálculos semiempiricos com xtb.
+
+## Etapa 2
+- Executar todos os arquivos .xyz com os respectivos ácidos de interesse. 
+  
                Essa etapa foi realizada conjuntamente com os outros cálculos.
          
