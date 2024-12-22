@@ -53,8 +53,8 @@ contidos os output dos cálculos, com informações necessárias para o andament
 Como todos os cálculos foram concluidos então podemos passar para a próxima etapa.
 
 ## Etapa 3
- - Essa etapa é a de extração de dados. Agora deveremos executar o script pega_dados.py e esse script irá extrair todos os dados de interesse e escreve-los em um arquivos denominado de
-fitting_data.csv. Todos os parâmetros iniciais para realizar a proxima etapa que é a de análise de dados serão armazenados nesse arquivo.; 
+ - Etapa de extração de dados. Agora deveremos executar o script pega_dados.py e esse script irá extrair todos os dados de interesse proveniente dos cálculos DFT e semiempiricos e escreve-los em um arquivos denominado de
+fitting_data.csv. Todos os parâmetros iniciais para realizar a próxima etapa de análise de dados serão armazenados nesse arquivo. 
   
                Essa etapa foi realizada conjuntamente com os outros cálculos.
          
