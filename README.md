@@ -35,11 +35,18 @@ soluções propostas.
                 
          - [x] Otimizar as geometrias com xtb.
 
-  Uma vez que, temos o arquivo dados_acidos.txt o script gerando_geometrias.py e os diretórios CH_scifinder, NH_scifinder, SH_scifinder, OH_scifinder e HHal_scifinder (em que estão as geometrias .xyz) não encontradas
+  Uma vez que, temos o arquivo dados_acidos.txt o script gerando_geometrias.py e os diretórios CH_scifinder, NH_scifinder, SH_scifinder, OH_scifinder e HHal_scifinder em que estão as geometrias .xyz não encontradas
   no pubchempy, concluimos a **Etapa 1**.
   
 ## Etapa 2
-- Executar todos os arquivos .xyz com os respectivos ácidos de interesse. 
+- Executar todos os arquivos *.xyz com os respectivos ácidos de interesse.
+- Nessa atapa já temos os diretórios com os respectivos ácidos de interesse. Por exemplo no diretório CH teremos todas as geometrias *.xyz dos ácidos do tipo CH. Portanto será nesse diretório que iremos executar
+o script faz_tudo_modif.sh. É esse script que executa os cálculos de interesse.
+- O script faz_tudo_modif.sh tem por objetivo:
+  1) Criar inputs do ORCA com o funcional, modelo de solvente e tipo de solvente de interesse.
+  2) Realizar os cálculos do ORCA.
+  3) Realizar os cálculos xtb com o tipo de solvente de interesse.
+  4) Fazer a proponação e desprotonação das estruturas.
   
                Essa etapa foi realizada conjuntamente com os outros cálculos.
          
