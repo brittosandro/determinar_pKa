@@ -50,7 +50,11 @@ o script faz_tudo_modif.sh. É esse script que executa os cálculos de interesse
 - Uma vez que os cálculos forem concluidos, serão criados vários diretórios com o CAS das várias moléculas e dentro de cada um destes diretórios teremos dois novos diretórios: ACIDcalc e BASEcalc. Nestes estão
 contidos os output dos cálculos, com informações necessárias para o andamento do projeto.
 - O script verifica_calcs.py foi executado para inspecionar todos os diretórios e verificar se todos os cálculos foram de fato concluidos com a terminação padrão do ORCA (****ORCA TERMINATED NORMALLY****).
+Como todos os cálculos foram concluidos então podemos passar para a próxima etapa.
 
+## Etapa 3
+ - Essa etapa é a de extração de dados. Agora deveremos executar o script pega_dados.py e esse script irá extrair todos os dados de interesse e escreve-los em um arquivos denominado de
+fitting_data.csv. Todos os parâmetros iniciais para realizar a proxima etapa que é a de análise de dados serão armazenados nesse arquivo.; 
   
                Essa etapa foi realizada conjuntamente com os outros cálculos.
          
