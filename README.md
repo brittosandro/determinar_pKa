@@ -65,8 +65,4 @@ chamada de ajuste dos dados.
 
 2) As regressões dos dados.
    - Os valores de pKa's serão ajustados de acordo com um os dados do arquivo produzidos pelo notebook desenvolvimento.ipynb. 
-
- 
-  
-               Essa etapa foi realizada conjuntamente com os outros cálculos.
-         
+          
