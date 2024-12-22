@@ -11,19 +11,19 @@ soluções propostas.
  - Gerar(produzir) as geometrias dos ácidos no formato *.xyz.
    
   **Solução** 
-   - Utilizar o CAS de cada ácido contido no artigo (x) para produzir as geometrias.
-      - [x] Criar um arquivo .txt com os dados do artigo (x) cujo os atributos são: nome da molécula (Name), tipo do ácido(Type), simbolo(CAS), fórmula molecular(Formula) e valor de pKa (pKa).\
-            - O arquivo é o dados_acidos.txt.            
+   - Utilizar o CAS de cada ácido contido no artigo 'Strengths of Acids in Acetonitrile' para produzir as geometrias.
+      - [x] Criar um arquivo .txt com os dados do artigo 'Strengths of Acids in Acetonitrile' cujo os atributos são: nome da molécula (Name), tipo do ácido(Type), simbolo(CAS), fórmula molecular(Formula) e valor de pKa (pKa).\
+            - O arquivo criado é o dados_acidos.txt.            
       - [x] Criar um script python com a biblioteca pubchem do Python e buscar as geometrias contidas no banco de dados.\
             - O script é o gera_geometrias.py.
        
    - Problema encontrado:
-     - A biblioteca pubchem não apresenta todos os CAS dos ácidos contidos no arquivo de ácidos do artigo (X). Dentre as 231 estruturas presentes, 102 não foram encontradas pelo pubchem.
+     - A biblioteca pubchem **não** apresenta todos os CAS dos ácidos contidos no arquivo de ácidos do artigo 'Strengths of Acids in Acetonitrile'. Dentre as 231 estruturas presentes, 102 não foram encontradas pelo pubchem.
        
    - Foi necessário recorrer a biblioteca **scifinder** afim de obter as geometrias não encontradas no script pelo pubchem.
      
        - Essa tarefa é terrível, pois é uma tarefa manual (só sei fazer essa assim :( ). Acrescido o fato de que as estruturas mostradas no scifinder escondem os hidrogênios e portanto
-         será necessário realizar outras tarefas adicionais: acrescentar hidrogênios por meio da abertura do arquivo no avogadro, esta geometria não será otimizada então será necessário
+         será necessário realizar outras tarefas adicionais como: acrescentar hidrogênios por meio da abertura do arquivo no avogadro, esta geometria não será otimizada então será necessário
          otimizar a geometria com o xtb. Assim eu terei o conjunto de todas as etapas possíveis. As subtarefas são:
          
          - [x] Buscar as geometrias dos ácidos no scifinder.
