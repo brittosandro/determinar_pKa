@@ -54,7 +54,19 @@ Como todos os cálculos foram concluidos então podemos passar para a próxima e
 
 ## Etapa 3
  - Etapa de extração de dados. Agora deveremos executar o script pega_dados.py e esse script irá extrair todos os dados de interesse proveniente dos cálculos DFT e semiempiricos e escreve-los em um arquivos denominado de
-fitting_data.csv. Todos os parâmetros iniciais para realizar a próxima etapa de análise de dados serão armazenados nesse arquivo. 
+fitting_data.csv. Todos os parâmetros iniciais para realizar a próxima etapa de análise de dados serão armazenados nesse arquivo.
+
+## Etapa 4
+ - Etapa de análise de dados. Para essa etapa será necessário ter o arquivo fitting_data.csv. Uma primeira parte da análise de dados será a parte chamada de desenvolvimento e uma outra parte da análise de dados
+chamada de ajuste dos dados.
+
+1) O desenvolvimento da análise.
+   - Nessa parte teremos que executar o notebook chamado de desenvolvimento.ipynb. Nesse notebook estão todas as partes iniciais da análise, estruturas tais como: ajustes iniciais e verificações de energias.
+
+2) As regressões dos dados.
+   -  
+
+ 
   
                Essa etapa foi realizada conjuntamente com os outros cálculos.
          
