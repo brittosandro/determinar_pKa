@@ -35,8 +35,9 @@ soluções propostas.
                 
          - [x] Otimizar as geometrias com xtb.
 
-  Após essa etapa ser concluida será necessário executar todos os arquivos .xyz para que sejam executados os cálculos ab-initio com DFT bem como os cálculos semiempiricos com xtb.
-
+  Uma vez que, temos o arquivo dados_acidos.txt o script gerando_geometrias.py e os diretórios CH_scifinder, NH_scifinder, SH_scifinder, OH_scifinder e HHal_scifinder (em que estão as geometrias .xyz) não encontradas
+  no pubchempy, concluimos a **Etapa 1**.
+  
 ## Etapa 2
 - Executar todos os arquivos .xyz com os respectivos ácidos de interesse. 
   
