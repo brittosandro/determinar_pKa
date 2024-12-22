@@ -64,7 +64,7 @@ chamada de ajuste dos dados.
    - Nessa parte teremos que executar o notebook chamado de desenvolvimento.ipynb. Nesse notebook estão todas as partes iniciais da análise, estruturas tais como: ajustes iniciais e verificações de energias.
 
 2) As regressões dos dados.
-   -  
+   - Os valores de pKa's serão ajustados de acordo com um os dados do arquivo produzidos pelo notebook desenvolvimento.ipynb. 
 
  
   
